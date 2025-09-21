@@ -1,0 +1,22 @@
+name: skin_disease_cuda
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.13
+  - pip
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pillow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda>=12.1,<13
+  - jupyter
+  - pip:
+      - efficientnet-pytorch
+      - opencv-python
